@@ -186,6 +186,47 @@ nav{
     grid-row: 2/3;
 }
 
+
+/* starting sub page*/
+
+.rivers-grid {
+    max-height: 1240px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.chattooga, .pigeon, .nantahala {
+    margin: 50px auto;
+}
+.chootooga-msg {
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    font-size: large;
+}
+.pigeon-msg {
+   text-align: center;
+   padding: 50px;
+   margin: 50px;
+   font-size: large;
+
+}
+.nantahala-msg {
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    font-size: large;
+   
+}
+.rivers-title {
+    text-align: center;
+    font-family: 'Rock Salt', 'Montserra', sans-serif;
+}
+.rivers-info {
+    color: black;
+    font-size: large;
+}
+    
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -228,43 +269,3 @@ nav{
         
     }
 }
-/* starting sub page*/
-
-.rivers-grid {
-    max-height: 1240px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-.chattooga, .pigeon, .nantahala {
-    margin: 50px auto;
-}
-.chootooga-msg {
-    text-align: center;
-    padding: 50px;
-    margin: 50px;
-    font-size: large;
-}
-.pigeon-msg {
-   text-align: center;
-   padding: 50px;
-   margin: 50px;
-   font-size: large;
-
-}
-.nantahala-msg {
-    text-align: center;
-    padding: 50px;
-    margin: 50px;
-    font-size: large;
-   
-}
-.rivers-title {
-    text-align: center;
-    font-family: 'Rock Salt', 'Montserra', sans-serif;
-}
-.rivers-info {
-    color: black;
-    font-size: large;
-}
-    
