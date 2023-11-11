@@ -3,6 +3,7 @@
 #content{
     max-width: 1600px;
     margin: 0 auto;
+   
 }
 nav a {
     text-align: center;
@@ -47,10 +48,10 @@ body {
     padding: 0;
 }
 h2{
-    margin: 0;
+    margin: 0; 
 }
 header {
-    background-color: #c0a179;
+    color: #635b50;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -224,5 +225,46 @@ nav{
     }
     footer {
         margin-top: 25px;
+        
     }
 }
+/* starting sub page*/
+
+.rivers-grid {
+    max-height: 1240px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.chattooga, .pigeon, .nantahala {
+    margin: 50px auto;
+}
+.chootooga-msg {
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    font-size: large;
+}
+.pigeon-msg {
+   text-align: center;
+   padding: 50px;
+   margin: 50px;
+   font-size: large;
+
+}
+.nantahala-msg {
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    font-size: large;
+   
+}
+.rivers-title {
+    text-align: center;
+    font-family: 'Rock Salt', 'Montserra', sans-serif;
+}
+.rivers-info {
+    color: black;
+    font-size: large;
+}
+    
