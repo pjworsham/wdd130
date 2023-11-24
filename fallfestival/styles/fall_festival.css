@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:ital@1&family=Rock+Salt&display=swap');
+ 
+ #content{
+    max-width: 1600px;
+    margin: 0 auto;
+    justify-content: center;
+ }
+ html {
+    background-color:#dac6a2 ;
+ }   
+
+ header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #775c4e;
+}
+.logo {
+   justify-self: center;
+   align-self: center;
+}
+nav {
+   display: flex;
+   justify-content: space-around;
+   padding-top: 25px;
+    
+}
+nav a {
+    color: white;
+    font-size: 20px;
+}
+#heading {
+    text-align: center;
+}
+#heading h1 {
+    font-size: 50px;
+    font-family: handlee;
+}
+#heading h2, h3 {
+    font-size: 25px;
+    font-family: Montserrat;
+}
+#pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+footer {
+    display: grid;
+    grid-template-columns: 500px 375px 375px auto;
+    justify-items: center;
+    align-items: center; 
+    background-color: #775c4e;
+}
+.facebook {
+    grid-column: 4/5;
+}
+footer, footer a {
+    color: white;
+    
+}
+.social {
+    padding-top: 5px;
+
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    font-family: Montserrat;
+      
+}
+#vendor_msg {
+    display: grid;
+    max-width: 1372px;
+    margin: center;
+    padding: 1px 0px 1px 75px;
+    border: 20%;
+}
+
