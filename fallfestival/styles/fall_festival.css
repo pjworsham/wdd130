@@ -37,6 +37,7 @@ nav a {
 
 #heading {
     text-align: center;
+    padding-bottom: 50px;
 }
 
 #heading h1 {
@@ -138,6 +139,7 @@ p {
     text-align: center;
     margin: auto;
     display: block;
+
 }
 
 #pumpkin_carving {
@@ -157,4 +159,9 @@ p {
     margin: auto;
     display: block;
     padding-left: 20px;
+}
+.center-pumpkin {
+    padding-top: 175px;
+   display: block;
+
 }
