@@ -1,82 +1,160 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:ital@1&family=Rock+Salt&display=swap');
- 
- #content{
 
+/* main page */
+#content {
     max-width: 1400px;
     margin: 0 auto;
     justify-content: center;
- }
- html {
-    background-color:#dac6a2 ;
- }   
+}
 
- header {
+html {
+    background-color: #dac6a2;
+}
+
+
+header {
     display: grid;
     grid-template-columns: 150px auto;
     background-color: #775c4e;
 }
+
 .logo {
-   justify-self: center;
-   align-self: center;
+    justify-self: center;
+    align-self: center;
 }
+
 nav {
-   display: flex;
-   justify-content: space-around;
-   padding-top: 25px;
-    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+
 }
+
 nav a {
     color: white;
     font-size: 20px;
 }
+
 #heading {
     text-align: center;
 }
+
 #heading h1 {
     font-size: 50px;
     font-family: handlee;
 }
-#heading h2, h3 {
+
+#heading h2,
+h3 {
     font-size: 25px;
     font-family: Montserrat;
 }
+
 #pictures {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
 }
+
 footer {
     display: grid;
     grid-template-columns: 375px 300px 300px auto;
     justify-items: center;
-    align-items: center; 
+    align-items: center;
     background-color: #775c4e;
-   
+    margin-top: auto;
+}
+body
+{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .facebook {
     grid-column: 4/5;
 }
-footer, footer a {
+
+footer,
+footer a {
     color: white;
-    
+
 }
+
 .social {
     padding-top: 5px;
 
 }
+
 p {
     font-size: 20px;
     text-align: center;
     font-family: Montserrat;
-      
 }
+
 #vendor_msg {
     display: grid;
     max-width: 1372px;
-    margin: center;
     padding: 1px 0px 1px 75px;
-    border: 20%;
 }
 
-  
+
+
+
+/* CHILD page */
+
+#events_msg {
+    display: grid;
+    grid-template-columns: 511px 511px 511px;
+    grid-template-rows: 340px 340px;
+    justify-content: center;
+}
+
+.girl {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    margin: auto;
+    display: block;
+
+}
+
+#face_painting {
+    justify-items: center;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#face_painting p {
+    justify-content: center;
+}
+
+.pumpkin {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: stretch;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+#pumpkin_carving {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#petting_zoo {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.goats {
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding-left: 20px;
+}
